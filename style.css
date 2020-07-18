@@ -1,3 +1,10 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
 #search-container {
     width: 40%;
 }
@@ -17,12 +24,12 @@
 }
 
 main {
-    height: 80vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex: 1 0 auto;
 }
 
 ul {
@@ -41,7 +48,7 @@ ul {
 }
 
 ul li {
-    margin: 10px;
+    margin: 14px;
 }
 
 .left-nav {
@@ -80,4 +87,38 @@ a {
     height: 30px;
     width: 30px;
     display: inline-block;
+}
+
+footer {
+    width: 100%;
+    margin-top: auto;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+.left-footer {
+    display: flex;
+    align-items: center;
+}
+
+.right-footer {
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    font-size: 14px;
+    color: #5f6368;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.left-link {
+    padding-left: 14px;
+}
+
+.right-link {
+    padding-right: 14px;
 }
