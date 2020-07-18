@@ -1,0 +1,23 @@
+img {
+    display: block;
+    margin: auto;
+}
+
+#search-container {
+    margin: auto;
+    width: 40%;
+}
+
+#search-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.search-buttons {
+    margin: 10px;
+}
