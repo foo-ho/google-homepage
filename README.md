@@ -1,1 +1,1 @@
-This project is used to demonstrate the ability to deconstruct a webpage with developer tools and then using my knowledge of web development to rebuild it.
+This project is used to demonstrate the ability to deconstruct a webpage with developer tools and then use my knowledge of web development to rebuild it.
